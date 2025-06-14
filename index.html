@@ -2,25 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Minecraft Server Rules</title>
   <style>
+    /* Base styles */
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: url('https://wallpapercave.com/wp/wp9161781.jpg') no-repeat center center fixed;
-      background-size: cover;
-      backdrop-filter: blur(6px);
-      color: #fff;
       padding: 20px;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('https://wallpapercave.com/wp/wp9161781.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
     }
 
     h1 {
       text-align: center;
       font-size: 3em;
-      margin-top: 20px;
       color: #00ffff;
       text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+      margin-bottom: 40px;
       animation: glow 2s ease-in-out infinite alternate;
     }
 
@@ -30,40 +30,30 @@
     }
 
     h2 {
-      margin-top: 40px;
+      margin-top: 30px;
       color: #0ff;
       border-bottom: 2px solid #0ff;
       padding-bottom: 5px;
     }
 
     details {
-      margin: 10px 0;
+      margin: 15px 0;
       background: rgba(0, 0, 0, 0.6);
       padding: 10px;
-      border-radius: 8px;
       border-left: 4px solid #0ff;
-      animation: fadeIn 0.6s ease forwards;
-      opacity: 0;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
     }
 
     summary {
-      font-size: 1.2em;
-      cursor: pointer;
-    }
-
-    details[open] {
-      opacity: 1;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
+      font-size: 1.1em;
     }
 
     footer {
       text-align: center;
       color: #ccc;
-      margin-top: 50px;
+      margin-top: 60px;
       font-size: 0.9em;
     }
 
@@ -78,35 +68,33 @@
 
   <h2>🔒 Necessary Rules</h2>
   <div id="necessary">
-    <details style="animation-delay: 0s"><summary>🚫 No PvP unless both players agree.</summary></details>
-    <details style="animation-delay: 0.1s"><summary>🚫 Do not destroy buildings unless they are yours.</summary></details>
-    <details style="animation-delay: 0.2s"><summary>🚫 Do not destroy villages.</summary></details>
-    <details style="animation-delay: 0.3s"><summary>🚫 Do not place unnecessary or random blocks.</summary></details>
-    <details style="animation-delay: 0.4s"><summary>🚫 Do not go to the End or kill the Ender Dragon without admin permission.</summary></details>
-    <details style="animation-delay: 0.5s"><summary>🚫 No abusing or offensive language.</summary></details>
-    <details style="animation-delay: 0.6s"><summary>🚫 No griefing: do not damage or steal other players' creations.</summary></details>
-    <details style="animation-delay: 0.7s"><summary>🚫 No hacking or cheating (e.g., X-ray, kill aura, etc.).</summary></details>
-    <details style="animation-delay: 0.8s"><summary>🚫 No duplication glitches or exploits.</summary></details>
-    <details style="animation-delay: 0.9s"><summary>🚫 No lag machines or excessive auto-farms.</summary></details>
-    <details style="animation-delay: 1s"><summary>🚫 No spamming chat, commands, or sounds.</summary></details>
-    <details style="animation-delay: 1.1s"><summary>🚫 No impersonating staff members.</summary></details>
-    <details style="animation-delay: 1.2s"><summary>🚫 Respect protected areas and claims.</summary></details>
-    <details style="animation-delay: 1.3s"><summary>🚫 Follow staff instructions — their decisions are final.</summary></details>
+    <details><summary>🚫 No PvP unless both players agree.</summary></details>
+    <details><summary>🚫 No griefing or stealing from others.</summary></details>
+    <details><summary>🚫 Don’t destroy villages or player builds.</summary></details>
+    <details><summary>🚫 No random or excessive block placement.</summary></details>
+    <details><summary>🚫 No End access without permission.</summary></details>
+    <details><summary>🚫 No abuse, hate speech, or swearing.</summary></details>
+    <details><summary>🚫 No hacking, X-ray, or exploit use.</summary></details>
+    <details><summary>🚫 No spamming or command abuse.</summary></details>
+    <details><summary>🚫 Don’t impersonate staff or others.</summary></details>
+    <details><summary>🚫 Respect claims and protections.</summary></details>
+    <details><summary>🚫 Follow staff instructions.</summary></details>
   </div>
 
   <h2>⚙️ Optional Rules</h2>
   <div id="optional">
-    <details style="animation-delay: 1.4s"><summary>📅 Be respectful and friendly to others.</summary></details>
-    <details style="animation-delay: 1.5s"><summary>📅 Use appropriate language in public chat.</summary></details>
-    <details style="animation-delay: 1.6s"><summary>📅 Prefer English in public chat for moderation.</summary></details>
-    <details style="animation-delay: 1.7s"><summary>📅 No advertising other servers or Discords.</summary></details>
-    <details style="animation-delay: 1.8s"><summary>📅 No AFK machines or auto-clickers.</summary></details>
-    <details style="animation-delay: 1.9s"><summary>📅 Don’t scam or trick other players in trades.</summary></details>
-    <details style="animation-delay: 2s"><summary>📅 Don’t exploit shop or job systems unfairly.</summary></details>
-    <details style="animation-delay: 2.1s"><summary>📅 Bedrock players should use real usernames.</summary></details>
-    <details style="animation-delay: 2.2s"><summary>📅 Use /msg and teleport commands responsibly.</summary></details>
+    <details><summary>📅 Be kind and helpful to new players.</summary></details>
+    <details><summary>📅 Use signs to label your builds.</summary></details>
+    <details><summary>📅 Keep builds clean and non-laggy.</summary></details>
+    <details><summary>📅 Don’t scam others during trades.</summary></details>
+    <details><summary>📅 Avoid AFK machines or autoclickers.</summary></details>
+    <details><summary>📅 Use English in public chat (preferred).</summary></details>
+    <details><summary>📅 Do not advertise other servers.</summary></details>
+    <details><summary>📅 Use Bedrock usernames accurately.</summary></details>
   </div>
 
-  <footer>© 2025 Minecraft Server | Play Fair. Build Together. Survive Better.</footer>
+  <footer>
+    © 2025 Minecraft Server | Built with ❤️ and blocks
+  </footer>
 </body>
 </html>
