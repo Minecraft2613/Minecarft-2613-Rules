@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Minecraft Server Rules</title>
   <style>
-    /* Base styles */
     body {
       margin: 0;
       padding: 20px;
@@ -39,15 +38,28 @@
     details {
       margin: 15px 0;
       background: rgba(0, 0, 0, 0.6);
-      padding: 10px;
+      padding: 15px 20px;
       border-left: 4px solid #0ff;
-      border-radius: 8px;
+      border-radius: 10px;
       cursor: pointer;
-      transition: all 0.3s ease;
+      transition: transform 0.3s ease, background 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 255, 255, 0.2);
+    }
+
+    details:hover {
+      transform: scale(1.02);
+      background: rgba(0, 0, 0, 0.75);
+    }
+
+    details[open] {
+      transform: scale(1.03);
+      background: rgba(0, 0, 0, 0.85);
     }
 
     summary {
       font-size: 1.1em;
+      font-weight: bold;
+      outline: none;
     }
 
     footer {
